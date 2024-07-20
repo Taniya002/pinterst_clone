@@ -1,0 +1,51 @@
+*{
+    font-family: sans-serif;
+}
+.header{
+    position:fixed;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header .logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color:#e60023;
+}
+.header .navbar {
+    margin:30px;
+   
+}
+
+header .navbar a{
+    font-size: 1.0rem;
+    margin:0.7rem;
+    color:black;
+    text-decoration: none;
+}
+.header .navbar a:hover{
+    background-color: black;
+    color:white; 
+}
+.header .search-form input{
+    width: 100vh;
+    height: 50px;
+    border-radius: 24px;
+    outline: none;
+    border:2px solid gray;
+    font-size: 1rem;
+}
+.header .icons{
+   height:1.6rem;
+   width: 1.6rem;
+   margin-left: 34px;
+   font-size: 1.4rem;
+   display: flex;
+   line-height: 1.6rem;
+}
+.icons i{
+    padding: 20px;
+    bottom: 10px;
+}
